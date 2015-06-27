@@ -1,0 +1,30 @@
+{
+  "name": "reacat-site",
+  "version": "0.0.0",
+  "description": "The website for Reacat.",
+  "main": "index.js",
+  "scripts": {
+    "build": "reacat generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reacat/site.git"
+  },
+  "keywords": [
+    "reacat",
+    "react",
+    "blog",
+    "static",
+    "website"
+  ],
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reacat/site/issues"
+  },
+  "homepage": "https://github.com/reacat/site",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
