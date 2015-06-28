@@ -1,13 +1,8 @@
 ---
-title: Custom Title
-date: 2015-04-30
-theme: post
+title: Reacat | Use React to generate your awesome static website
 ---
 
-Hello World
-===
+<div className="banner" markdown="1">
+## Use React to generate your aw esome static website
+</div>
 
-- list1
-- list2
-- list3
-- list4

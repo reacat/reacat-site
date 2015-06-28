@@ -4,7 +4,7 @@
   "description": "The website for Reacat.",
   "main": "index.js",
   "scripts": {
-    "build": "reacat generate",
+    "start": "reacat generate -ws",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

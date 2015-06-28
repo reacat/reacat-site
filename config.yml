@@ -1,0 +1,4 @@
+author: xcatliu
+theme: reacat-theme-reacat
+plugins:
+  - reacat-plugin-markdown
