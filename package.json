@@ -25,6 +25,5 @@
   },
   "homepage": "https://github.com/reacat/site",
   "dependencies": {
-    "react": "^0.13.3"
   }
 }
