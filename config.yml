@@ -1,4 +1,7 @@
 author: xcatliu
 theme: reacat-theme-reacat
 plugins:
+  - reacat-plugin-front-matter
+  - reacat-plugin-html
   - reacat-plugin-markdown
+  - reacat-plugin-react
