@@ -4,7 +4,7 @@
   "description": "The website for Reacat.",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/reacat build -ws",
+    "start": "./node_modules/.bin/reacat build -tws",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,11 +25,13 @@
   },
   "homepage": "https://github.com/reacat/site",
   "devDependencies": {
-    "reacat": "^0.2.0",
+    "reacat": "^0.3.1",
     "reacat-plugin-front-matter": "^0.1.2",
     "reacat-plugin-html": "^0.1.2",
     "reacat-plugin-markdown": "^0.1.1",
-    "reacat-plugin-react": "^0.1.2",
+    "reacat-plugin-react": "^0.1.2"
+  },
+  "dependencies": {
     "react": "^0.13.3"
   }
 }
