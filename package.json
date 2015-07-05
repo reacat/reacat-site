@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/reacat build -tws",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,13 +26,17 @@
   },
   "homepage": "https://github.com/reacat/site",
   "devDependencies": {
-    "reacat": "^0.3.1",
+    "eslint-plugin-react": "^2.6.4",
+    "reacat": "^0.4.1",
     "reacat-plugin-front-matter": "^0.1.2",
     "reacat-plugin-html": "^0.1.2",
     "reacat-plugin-markdown": "^0.1.1",
-    "reacat-plugin-react": "^0.1.2"
+    "reacat-plugin-react": "^0.1.3"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "babel-eslint": "^3.1.20",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.4"
   }
 }
