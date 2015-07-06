@@ -18,7 +18,7 @@ const styles = {
     height: 1024 * size + 'px'
   },
   react: {
-    animation: 'spin 5s linear infinite',
+    animation: 'spin 1s linear infinite',
     width: 512 * size + 'px',
     height: 512 * size + 'px',
     position: 'absolute',
